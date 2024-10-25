@@ -11,8 +11,8 @@ body {
 }
 
 .holder {
-	height: 100%;
-	width: 100%;
+	width: 200px;
+    height: 200px;
 	background-color: red;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -26,5 +26,4 @@ body {
 .item {
 	background-color: white;
 	border: 1px solid black;
-	border-radius: 15px;
 }
